@@ -7,13 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(){}
+  constructor() { }
 
   ngOnInit(): void {
-      
   }
-
-  slogan: string = 'Your one stop shop for everything.';
-  source: string = '/assets/shopping.jpg';
 
 }
