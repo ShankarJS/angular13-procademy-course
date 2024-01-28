@@ -1,0 +1,4 @@
+<!-- keyup event is a change detection event -->
+<input type="text" #myVariable (keyup)="0">
+<button (click)="sayHello(myVariable)">Say Hello</button>
+<p>{{ myVariable.value }}</p>
